@@ -12,13 +12,46 @@
             <ul>
                 <li><a href="intro.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="index.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        
+        
+        
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required/><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required/><br>
+            <label for="email">Your Email</label><br>
+            <input type="email" name="email" required/>
+
+            <label>Category Interests:</label>
+            
+            <input type="checkbox" name="interests"> Industry
+            <input type="checkbox" name="interests"> Technical
+            <input type="checkbox" name="interests"> Career
+            
+
+            <label for="role">Your Role:</label>
+            <select required>
+                <option value="0" selected>Select</option>
+                <option value="1"> Writer </option>
+                <option value="2"> Contributor </option>
+                <option value="3"> Administrator </option>
+            </select>
+
+         <input type="submit" value="Submit">
+
+        </form>
+
+    </main>
+   
 
 
-    
+
 
 
 
